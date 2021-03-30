@@ -74,7 +74,6 @@ class _HomePageState extends State<HomePage> {
                 "\© Developed by\nPouria Zeinalzadeh",
                 style: myTextStyle.copyWith(fontWeight: FontWeight.w900),
               ),
-              arrowColor: Colors.yellow,
             ),
             ListTile(
               leading: Icon(FontAwesomeIcons.infoCircle),
