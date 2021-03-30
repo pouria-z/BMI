@@ -279,7 +279,7 @@ class _HomePageState extends State<HomePage> {
                     max: 220,
                     divisions: 360,
                     label: "$height",
-                    inactiveColor: Color(0xFF0A0E23),
+                    inactiveColor: Theme.of(context).scaffoldBackgroundColor,
                   ),
                 ],
               ),
