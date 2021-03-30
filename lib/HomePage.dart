@@ -52,9 +52,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text(
             "BMI Calculator",
-            style: TextStyle(
-              fontSize: 22,
-            ),
+            style: myTextStyle
         ),
         elevation: 5,
         shadowColor: Colors.black,
