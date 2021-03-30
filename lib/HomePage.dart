@@ -70,13 +70,9 @@ class _HomePageState extends State<HomePage> {
                 child: Image.asset('assets/icon/icon.png'),
               ),
               accountName: Text(""),
-              accountEmail: Column(
-                children: [
-                  Text(
-                    "\© Developed by\nPouria Zeinalzadeh",
-                    style: myTextStyle.copyWith(fontWeight: FontWeight.w900),
-                  ),
-                ],
+              accountEmail: Text(
+                "\© Developed by\nPouria Zeinalzadeh",
+                style: myTextStyle.copyWith(fontWeight: FontWeight.w900),
               ),
               arrowColor: Colors.yellow,
             ),
