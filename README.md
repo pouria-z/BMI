@@ -10,6 +10,6 @@ By entering your weight and height in this application, you will see the normal 
 
 First version and first build, ready to publish on cafebazar.com
 
-You can also check my other apps on https://cafebazaar.ir/app/com.pouria.bmicalculator?l=en
+You can also check my other apps on https://cafebazaar.ir/developer/413934687302?l=en
 
 Contact me: pouria.zeinalzadeh@gmail.com
