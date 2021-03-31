@@ -1,16 +1,15 @@
 # bmicalculator
 
-A new Flutter application.
+BMI Calculator
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Body Mass Index is a value derived from the mass and height of a person. This value applies to the body of every adult.
+With this application you will be able to easily calculate your BMI and find out if your weight is appropriate for your
+height or not. In other words, are you underweight or overweight, or are you normal and in perfect health?
+By entering your weight and height in this application, you will see the normal weight range based on your height.
 
-A few resources to get you started if this is your first Flutter project:
+First version and first build, ready to publish on cafebazar.com
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+You can also check my other apps on https://cafebazaar.ir/app/com.pouria.bmicalculator?l=en
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Contact me: pouria.zeinalzadeh@gmail.com
