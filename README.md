@@ -8,7 +8,7 @@ With this application you will be able to easily calculate your BMI and find out
 height or not. In other words, are you underweight or overweight, or are you normal and in perfect health?
 By entering your weight and height in this application, you will see the normal weight range based on your height.
 
-First version and first build, ready to publish on https://cafebazaar.com
+First version and first build, ready to publish on https://cafebazaar.ir/?l=en
 
 You can also check my other apps on https://cafebazaar.ir/developer/413934687302?l=en
 
