@@ -41,6 +41,8 @@ const Map<String, String> enUS = {
   "descUnder6": " kilograms. Talk with your healthcare provider to determine "
       "possible causes of underweight and if you need to gain weight.",
   "reCal": "RE-CALCULATE",
+
+  ///AboutPage
   "about1": "Body mass index (BMI) is a value derived from the mass (weight) and height of a person."
       " The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m\², resulting from mass in kilograms and height in metres. The BMI may be determined using a table or chart which displays BMI as a function of mass and height"
       " using contour lines or colours for different BMI categories, and which may use other units of measurement"

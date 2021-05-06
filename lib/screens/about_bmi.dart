@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:bmicalculator/services/font.dart';
+import 'package:bmicalculator/services/localization_service.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:bmicalculator/font.dart';
-import 'package:bmicalculator/localization_service.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
 
 class AboutBMI extends StatelessWidget {
@@ -27,10 +26,7 @@ class AboutBMI extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(top: 10, bottom: 20),
                 child: Container(
-                  width: MediaQuery
-                      .of(context)
-                      .size
-                      .width - 30,
+                  width: MediaQuery.of(context).size.width - 30,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: inactiveColor,
@@ -53,10 +49,10 @@ class AboutBMI extends StatelessWidget {
                               text: "about1".tr.toPersianDigit(),
                               style: fonts.textStyle.copyWith(
                                   fontFamily:
-                                  LocalizationService.getCurrentLocale() ==
-                                      Locale('en', 'US')
-                                      ? "Roboto Light"
-                                      : "Vazir"),
+                                      LocalizationService.getCurrentLocale() ==
+                                              Locale('en', 'US')
+                                          ? "Roboto Light"
+                                          : "Vazir"),
                             ),
                             TextSpan(
                                 text: "about2".tr,
@@ -67,10 +63,10 @@ class AboutBMI extends StatelessWidget {
                               text: "about3".tr.toPersianDigit(),
                               style: fonts.textStyle.copyWith(
                                   fontFamily:
-                                  LocalizationService.getCurrentLocale() ==
-                                      Locale('en', 'US')
-                                      ? "Roboto Light"
-                                      : "Vazir"),
+                                      LocalizationService.getCurrentLocale() ==
+                                              Locale('en', 'US')
+                                          ? "Roboto Light"
+                                          : "Vazir"),
                             ),
                           ]),
                         ),
@@ -80,10 +76,10 @@ class AboutBMI extends StatelessWidget {
                               "about4".tr,
                               style: fonts.textStyle.copyWith(
                                   fontFamily:
-                                  LocalizationService.getCurrentLocale() ==
-                                      Locale('en', 'US')
-                                      ? "Roboto Light"
-                                      : "Vazir",
+                                      LocalizationService.getCurrentLocale() ==
+                                              Locale('en', 'US')
+                                          ? "Roboto Light"
+                                          : "Vazir",
                                   fontSize: 13,
                                   fontStyle: FontStyle.italic),
                             ),
@@ -95,10 +91,11 @@ class AboutBMI extends StatelessWidget {
                               child: Text(
                                 "about5".tr,
                                 style: fonts.textStyle.copyWith(
-                                  fontFamily: LocalizationService
-                                      .getCurrentLocale() == Locale('en', 'US')
-                                      ? "Roboto Light"
-                                      : "Vazir",
+                                  fontFamily:
+                                      LocalizationService.getCurrentLocale() ==
+                                              Locale('en', 'US')
+                                          ? "Roboto Light"
+                                          : "Vazir",
                                   fontSize: 13,
                                   fontStyle: FontStyle.italic,
                                   color: Colors.blue[700],

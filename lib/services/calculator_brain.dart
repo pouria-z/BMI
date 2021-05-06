@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:bmicalculator/localization_service.dart';
+import 'package:bmicalculator/services/localization_service.dart';
 import 'package:flutter/painting.dart';
 import 'package:get/get.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';

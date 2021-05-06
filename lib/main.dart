@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:bmicalculator/screens/home.dart';
+import 'package:bmicalculator/services/localization_service.dart';
+import 'package:bmicalculator/services/font.dart';
 import 'package:get/get.dart';
-import 'package:bmicalculator/HomePage.dart';
-import 'package:bmicalculator/localization_service.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:provider/provider.dart';
-import 'package:bmicalculator/font.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,46 +22,7 @@ void main() async {
         primaryColor: Color(0xFF0A0E19),
         scaffoldBackgroundColor: Color(0xFF0A0E23),
         canvasColor: Color(0xFF0A0E23),
-        // textTheme: TextTheme(
-        //   bodyText1: TextStyle(
-        //     color: Colors.white,
-        //     fontSize: 18,
-        //     fontFamily: LocalizationService.getCurrentLocale()==Locale('en', 'US')
-        //         ? "Roboto"
-        //         : "Vazir"
-        //   ),
-        //   bodyText2: TextStyle(
-        //       color: Colors.white,
-        //       fontSize: 30,
-        //       fontFamily: LocalizationService.getCurrentLocale()==Locale('en', 'US')
-        //           ? "Barlow"
-        //           : "Lalezar"
-        //   ),
-        // ),
       ),
     ),
   ));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

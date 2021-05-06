@@ -1,13 +1,12 @@
 import 'dart:async';
-import 'package:bmicalculator/localization_service.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:bmicalculator/screens/result_page.dart';
+import 'package:bmicalculator/services/calculator_brain.dart';
+import 'package:bmicalculator/services/font.dart';
+import 'package:bmicalculator/screens/about_bmi.dart';
+import 'package:bmicalculator/services/localization_service.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:bmicalculator/ResultPage.dart';
-import 'package:bmicalculator/CalculatorBrain.dart';
-import 'package:bmicalculator/font.dart';
-import 'package:bmicalculator/AboutBMI.dart';
 import 'package:get/get.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
 import 'package:provider/provider.dart';
@@ -127,7 +126,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       trailing: DropdownButton<String>(
                         items:
-                        LocalizationService.languages.map((String value) {
+                            LocalizationService.languages.map((String value) {
                           return DropdownMenuItem(
                             value: value,
                             child: Text(value),

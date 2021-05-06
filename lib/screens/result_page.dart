@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:bmicalculator/HomePage.dart';
+import 'package:bmicalculator/screens/home.dart';
+import 'package:bmicalculator/services/font.dart';
+import 'package:bmicalculator/services/localization_service.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:bmicalculator/font.dart';
-import 'package:bmicalculator/localization_service.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
 
 class ResultPage extends StatelessWidget {
